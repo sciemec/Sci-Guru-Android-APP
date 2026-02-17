@@ -1,0 +1,51 @@
+name: lec_sci_guru_book
+description: Sci-Guru Smart Tutor - Offline AI Science & Maths Tutor
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  shared_preferences: ^2.5.4
+
+  # 📸 CAMERA & IMAGE
+  image_picker: ^1.0.7
+
+  # 🧠 OCR (TEXT RECOGNITION)
+  google_mlkit_text_recognition: ^0.15.1
+
+  # 📂 FILE HANDLING
+  path_provider: ^2.1.2
+
+  # 🔢 MATH EXPRESSION SOLVER
+  math_expressions: ^2.4.0
+
+  # 🧠 AI ENGINE (ONNX)
+  onnxruntime: ^1.4.0
+
+  # 📦 JSON HANDLING
+  collection: ^1.18.0
+
+  # 🧾 HTTP (optional future AI API)
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # 📚 LOCAL BOOKS (YOUR AI KNOWLEDGE)
+  assets:
+    - assets/knowledge/
